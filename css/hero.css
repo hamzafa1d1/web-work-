@@ -1,0 +1,29 @@
+#pageContent{
+    position : absolute ; 
+    margin : 12% 25% 25% 15%;
+    z-index:-1;
+  
+    
+}
+#hero-container{
+    color : #ffc300
+}
+.hero-title{
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.hero-button{
+    font-family:  'Roboto Mono', monospace;
+    background-color:#ffd60A;
+	color: #000814;
+    font-size: 30px;
+    font-weight:bold;
+	text-decoration: none; 
+    border: 4px solid transparent;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+a:hover{
+    color : #ffc300 ;
+}

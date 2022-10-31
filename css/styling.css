@@ -7,13 +7,14 @@
   }
   body{
     font-family: 'Roboto Mono', monospace;
-    background-image: url('/images/vector\ background.jpg');
+    background-image: url('../images/vector\ background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     
   }
   nav{
+    z-index: 1 ; 
     background-color: #001d3d;
     height: 80px;
     width: 100%;
@@ -67,6 +68,7 @@
     background-color: #000814;
     text-align: center;
     vertical-align: middle;
+    margin-block-start: 100%;
   }
   
   .fa.fa-arrow-circle-down{
@@ -103,9 +105,4 @@
     #check:checked ~ ul{
       left: 0;
     }
-  }
-  section{
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
   }
