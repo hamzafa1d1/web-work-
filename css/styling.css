@@ -7,14 +7,13 @@
   }
   body{
     font-family: 'Roboto Mono', monospace;
-    background-image: url('../images/vector\ background.jpg');
+    background-image: url("../images/vector.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     
   }
   nav{
-    z-index: 1 ; 
     background-color: #001d3d;
     height: 80px;
     width: 100%;
@@ -42,10 +41,10 @@
     border-radius: 3px;
     text-transform: uppercase;
   }
-  a.active,a:hover{
+  nav a:hover{
     background: #003566;
     transition: .5s;
-  }
+  } 
   .checkbtn{
     font-size: 30px;
     color: #ffc300;
@@ -58,17 +57,17 @@
   #check{
     display: none;
   }
-  #mainFooter {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0.5rem;
+  #mainFooter { 
+    position: fixed;
+     width: 100%; 
+     right: 0; 
+     bottom: 0; 
+     left: 0;
+    height: 30px;
     color: #ffc300;
     background-color: #000814;
-    text-align: center;
+     text-align: center;
     vertical-align: middle;
-    margin-block-start: 100%;
   }
   
   .fa.fa-arrow-circle-down{
@@ -98,11 +97,19 @@
     nav ul li a{
       font-size: 20px;
     }
-    a:hover,a.active{
+    nav a:hover{
       background: none;
       color: #ffd60a;
     }
     #check:checked ~ ul{
       left: 0;
     }
+    #pageContent main
+  {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+}

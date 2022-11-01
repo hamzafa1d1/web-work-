@@ -1,0 +1,132 @@
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+#mainFooter1
+{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  color: #ffc300;
+  background-color: #000814;
+  text-align: center;
+  vertical-align: middle;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+}
+
+#pageContent .html {
+  background-color: rgb(224, 211, 194);
+  max-width: 40%;
+  text-decoration: none;
+  border-radius: 30px;
+  
+}
+#pageContent .css
+{
+  background-color: rgb(224, 211, 194);
+  max-width: 40%;
+  text-decoration: none;
+  border-radius: 30px; 
+}
+
+#pageContent .html a {
+  color: #003566;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+#pageContent .css a {
+  color: #003566;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+#pageContent .html a p{
+  margin-block-start: 19px;
+  text-decoration: none;  
+  color: #0f1640;
+  font-weight: 600;
+  font-family: 'Shadows Into Light Two', cursive;
+
+}
+#pageContent .css a p{
+  color: #0f1640;
+  margin-block-start: 19px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: 600;
+}
+#pageContent .html a h2
+{
+  background-color: #e44d26;
+  width: max-content;
+  align-items: center;
+  margin-inline-start: 39%;
+  width: 100px;
+  border-radius: 3px;
+  font-family: 'Righteous', cursive;
+  color: #e0d3c2;
+  
+}
+#pageContent .html a h2:hover
+{
+  color: black;
+  opacity: 0.5;
+  
+}
+#pageContent .css a h2:hover
+{
+  color: black;
+  opacity: 0.5;
+  
+}
+#pageContent .css a h2
+{
+  background-color: #379ad6;
+  width: max-content;
+  align-items: center;
+  margin-inline-start: 39%;
+  width: 100px;
+  border-radius: 3px;
+  font-family: 'Righteous', cursive;
+  color: #e0d3c2;
+  
+}
+#pageContent main
+{
+margin-block-start: 10vh;
+padding-left: 4%;
+padding-right: 4%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#pageContent .html a img{
+height: 284px;
+margin-inline-start: 20%;
+}
+
+#pageContent .css a img{
+height: 284px;
+margin-inline-start: 20%;
+}
+
+#pageContent h1{
+margin-inline-start: 41%;
+color: #ffc300;
+font-size: 30px;
+}
+
+.singleGallery ul li
+{
+text-decoration: none;
+
+}
