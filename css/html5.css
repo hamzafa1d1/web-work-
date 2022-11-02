@@ -31,7 +31,6 @@
   .book__link,
   .book__exit,
   .book__icon {
-    position: relative;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.9);
   }
